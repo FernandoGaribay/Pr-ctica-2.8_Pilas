@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CPila.cpp" />
-    <ClCompile Include="decimal a binario.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="decimalToBinary.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPila.h" />
+    <ClInclude Include="decimalToBinary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

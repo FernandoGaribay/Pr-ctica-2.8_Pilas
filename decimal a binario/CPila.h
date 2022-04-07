@@ -7,11 +7,12 @@ private:
     int valores[MAX];
 public:
     CPila();
+    ~CPila();
     bool pilaVacia();
     bool pilaLlena();
     void Push(int v);
     int Pop();
 
-    int getTope();
+    void mostarDatos();
 };
 

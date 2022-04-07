@@ -6,6 +6,7 @@ using namespace std;
 CPila::CPila() {
 	tope = -1;
 }
+CPila::~CPila() {}
 
 bool CPila::pilaVacia() {
 	return tope == -1;
@@ -43,6 +44,8 @@ int CPila::Pop() {
 	return aux;
 }
 
-int CPila::getTope() {
-	return tope;
+void CPila::mostarDatos() {
+	for (int i = 0; i < MAX; i++) {
+		cout << "Posicion " << i << ": " << valores[i] << endl;
+	}
 }

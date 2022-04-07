@@ -21,7 +21,8 @@ int main(void)
 
     pila.Push(11);
     pila.Push(12);
-    cout << "Tope: " << pila.getTope() << endl;
+
+    pila.mostarDatos();
 
     dato1 = pila.Pop();
     dato2 = pila.Pop();
@@ -36,19 +37,20 @@ int main(void)
     dato11 = pila.Pop();
     dato12 = pila.Pop();
 
-    cout << "\nDato sacado 1: " << dato1 << endl;
-    cout << "Dato sacado 2: " << dato2 << endl;
-    cout << "Dato sacado 3: " << dato3 << endl;
-    cout << "Dato sacado 4: " << dato4 << endl;
-    cout << "Dato sacado 5: " << dato5 << endl;
-    cout << "Dato sacado 6: " << dato6 << endl;
-    cout << "Dato sacado 7: " << dato7 << endl;
-    cout << "Dato sacado 8: " << dato8 << endl;
-    cout << "Dato sacado 9: " << dato9 << endl;
-    cout << "Dato sacado 10: " << dato10 << endl;
-    cout << "Dato sacado 11: " << dato11 << endl;
-    cout << "Dato sacado 12: " << dato12 << endl;
+    //cout << "\nDato sacado 1: " << dato1 << endl;
+    //cout << "Dato sacado 2: " << dato2 << endl;
+    //cout << "Dato sacado 3: " << dato3 << endl;
+    //cout << "Dato sacado 4: " << dato4 << endl;
+    //cout << "Dato sacado 5: " << dato5 << endl;
+    //cout << "Dato sacado 6: " << dato6 << endl;
+    //cout << "Dato sacado 7: " << dato7 << endl;
+    //cout << "Dato sacado 8: " << dato8 << endl;
+    //cout << "Dato sacado 9: " << dato9 << endl;
+    //cout << "Dato sacado 10: " << dato10 << endl;
+    //cout << "Dato sacado 11: " << dato11 << endl;
+    //cout << "Dato sacado 12: " << dato12 << endl;
 
     cout << "\nPila vacia: " << pila.pilaVacia() << endl;
+    pila.mostarDatos();
     return 0;
 }
