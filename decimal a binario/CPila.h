@@ -13,6 +13,7 @@ public:
     void Push(int v);
     int Pop();
 
+    int getMAX();
     void mostarDatos();
 };
 
